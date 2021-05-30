@@ -136,7 +136,7 @@ ProMicroをコンスルー 12ピン(2.5mm)にはんだ付けします。
 ProMicroにファームウェアを書き込みます。
 
 Alico48のHexファイルをダウンロードします。
-- [Default](https://github.com/marby3/Alico48_Buildguide/tree/main/hex)
+- [Default](https://drive.google.com/file/d/1-YVbkqrd2ydr3Jp5UCJfpwv8THTTcnag/view?usp=sharing)
 - [VIA]()
 次に、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)をDLし、実行します。
 Alico48のHexファイルをQMK Toolboxで読み込み、Flashします。
