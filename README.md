@@ -1,5 +1,5 @@
 # Alico48 ビルドガイド #
-![top](img/top.JPG)
+![top](img/top.JPG)  
 ### はじめに ###
 このページはAlico48の組み立て手順を解説するページです。  
 事前に全体を読んだ上で作業を開始してください。  
@@ -55,7 +55,7 @@
 | 18 | 長丸ゴム足 | 2 |  |
 | 19 | 同梱シート | 1 |  |
 
-![list_01](xxx.png)
+![list_01](xxx.png)  
 ※不足品があった場合は同梱シート記載の連絡先へご連絡をお願いします。  
 
 ### 追加購入品 ###
@@ -71,7 +71,7 @@
 | 26 | CherryMX互換キーキャップ（1.5U） | 4 | 1Uでも代替使用可能 |
 | 27 | USBケーブル | 1 | ProMicroに対応したケーブル |
 
-![list_02](xxx.png)
+![list_02](xxx.png)  
 
 
 ## 02. PCBに部品を実装する ##
@@ -79,32 +79,32 @@
 SMDダイオードをPCB(left)とPCB(right)にはんだ付けします。  
 
 SMDダイオードには向きがあり、基板のシルク（矢印模様）方向と合わせてはんだ付けをしていきます。  
-![diode_01](img/xxx.png)
+![diode_01](img/xxx.png)  
 はんだ付けをする際、ダイオードのパッド（金属の箔が見えている）部分に予備はんだを盛ります。  
 最初にSMDダイオード1つに対応するパッド2つのうち、1つを予備はんだしていきます。  
 全てのSMDダイオードのパッドに予備はんだができたら、予備はんだをはんだごてで溶かし、SMDダイオードの足を付着させはんだごてを離します。  
-![diode_02](img/xxx.png)
+![diode_02](img/xxx.png)  
 SMDダイオード58個分のはんだ付けが終わったら、もう一方のパッド部分についてもはんだ付けをします。  
 
 ### 02.02. スイッチ用PCBソケット(MX)をはんだ付けする ###
 スイッチ用PCBソケット(MX)をPCB(left)とPCB(right)にはんだ付けします。  
 
 スイッチ用PCBソケット(MX)をPCBのシルク(白い模様)に合わせてはんだ付けをしていきます。  
-![socket_01](img/xxx.png)
+![socket_01](img/xxx.png)  
 スイッチ用PCBソケット(MX)を上から軽く押さえ、パッドをはんだ付けして固定します。  
 
 ### 02.03. タクタイルスイッチをはんだ付けする ###
 タクタイルスイッチをPCB(left)にはんだ付けします。  
 
 タクタイルスイッチをPCB裏面から差し込み、はんだ付けをしていきます。  
-![RSW_01](img/xxx.png)
+![RSW_01](img/xxx.png)  
 タクタイルスイッチをマスキング等で固定し、スルーホールをはんだ付けして固定します。  
 
 ### 02.04. TRRSジャックをはんだ付けする ###
 TRRSジャックをPCB(left)とPCB(right)にはんだ付けします。  
 
 TRRSジャックをPCB表面から差し込み、はんだ付けをしていきます。  
-![TRRSjack_01](img/xxx.png)
+![TRRSjack_01](img/xxx.png)  
 TRRSジャックをマスキング等で固定し、スルーホールをはんだ付けして固定します。  
 
 ### 02.05. YS-SK6812MINI-Eをはんだ付けする(オプション) ###
@@ -112,19 +112,19 @@ YS-SK6812MINI-EをPCB(left)とPCB(right)にはんだ付けします。
 
 YS-SK6812MINI-EをPCB裏面の四角い穴にはめ込み、ピンを4つはんだ付けしていきます。  
 YS-SK6812MINI-EをPCBの目印に合わせてはめ込みます。  
-![LED_01](img/xxx.png)
+![LED_01](img/xxx.png)  
 最初に4つのうち1つをはんだ付けし、YS-SK6812MINI-Eを固定します。  
 全てのYS-SK6812MINI-Eを固定できたら、残りのYS-SK6812MINI-Eのピンをはんだ付けします。  
-![LED_02](img/xxx.png)
+![LED_02](img/xxx.png)  
 
 ### 02.06. ProMicroとコンスルーをはんだ付けする ###
 ProMicroをコンスルー 12ピン(2.5mm)にはんだ付けします。  
 
 コンスルー 12ピン(2.5mm)を挿入し、はんだ付けします。  
-![ProMicro_01](img/xxx.png)
+![ProMicro_01](img/xxx.png)  
 はんだ付けを上手にするには、コンスルー 12ピン(2.5mm)をPCBに差し込み上面から1箇所ずつ調整しながらはんだ付けすると綺麗にできます。  
 今後はこのはんだ付けしたものをProMicroと呼びます。  
-![ProMicro_02](img/xxx.png)
+![ProMicro_02](img/xxx.png)  
 (※Elite-C等はコンスルーを差し込むだけで導通するのではんだ付け不要です。)  
 (※BLE Micro Proを使用する際、13ピンが必要になります。)  
 
@@ -142,12 +142,12 @@ Alico48のHexファイルをダウンロードします。
 - [VIA]()
 次に、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)をDLし、実行します。  
 Alico48のHexファイルをQMK Toolboxで読み込み、Flashします。  
-![ProMicro_03](img/xxx.png)
+![ProMicro_03](img/xxx.png)  
 正常に書き込みが進んだ場合、最後にProMicroのリセットピンとGNDピンを1,2秒ほど短絡させ、リセットする必要があります。  
 PCBに差し込みタクタイルスイッチを1,2秒長押しした後離すと、書き込みが完了します。  
-![ProMicro_04](img/xxx.png)
+![ProMicro_04](img/xxx.png)  
 ファームウェアの書き込みが正常に終わった場合、ProMicroが「Alico48」として認識されます。  
-![ProMicro_05](img/xxx.png)
+![ProMicro_05](img/xxx.png)  
 
 ### 03.02. ProMicroとTRRSケーブルをPCBに接続し、動作確認する ###
 PCBにProMicroとUSBケーブル、TRRSケーブルを繋ぎ、動作確認を行います。  
@@ -155,7 +155,7 @@ PCBにProMicroとUSBケーブル、TRRSケーブルを繋ぎ、動作確認を�
 PCBにProMicroを差し込み、USBケーブルでPCと接続します。また、左右間をTRRSケーブルで接続します。  
 [QMK Configuratorキーボード入力テスト](https://config.qmk.fm/#/test)を開き、ピンセットをソケットに差し込みます。  
 はんだ付けに成功している場合、全てのキーにて入力が行われます。  
-![testinput_01](img/xxx.png)
+![testinput_01](img/xxx.png)  
 もし入力が行われない場合、はんだ付けを忘れている可能性があるので、入力されていないキーのソケットとダイオードを確認してみてください。  
 また、LEDについては光らないキーのピンが綺麗にはんだ付けされているかを確認してください。  
 
