@@ -1,12 +1,12 @@
 # Alico48 ビルドガイド #
 ![top](img/top.JPG)  
-### 目次 {ignore=true} ###
+### 目次 ###
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
 - [Alico48 ビルドガイド #](#alico48-ビルドガイド)
-    - [目次 {ignore=true} ###](#目次-ignoretrue)
+    - [目次 ###](#目次)
     - [はじめに ###](#はじめに)
     - [全体の流れ ###](#全体の流れ)
     - [ファームウェアについて注意 ###](#ファームウェアについて注意)
